@@ -15,11 +15,11 @@ import org.apache.logging.log4j.Logger;
 @Mod(modid = BlackAndWhite.MODID, name = BlackAndWhite.MODNAME, version = BlackAndWhite.VERSION, useMetadata = true)
 public class BlackAndWhite {
 
-    public static final String MODID = "pneumatter";
-    public static final String MODNAME = "Pneumatter";
+    public static final String MODID = "blackandwhite";
+    public static final String MODNAME = "blackandwhite";
     public static final String VERSION = "0.0.1";
 
-    @SidedProxy(clientSide = "pneumatter.proxy.ClientProxy", serverSide = "pneumatter.proxy.ServerProxy")
+    @SidedProxy(clientSide = "blackandwhite.proxy.ClientProxy", serverSide = "blackandwhite.proxy.ServerProxy")
     public static CommonProxy proxy;
 
     @Mod.Instance
